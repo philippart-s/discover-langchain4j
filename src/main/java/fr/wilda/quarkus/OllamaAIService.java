@@ -20,6 +20,6 @@ public interface OllamaAIService {
   // Prompt customisation
   @UserMessage("Answer as best possible to the following question: {question}. The answer must be in a style of a virtual assistant and use emoji.")
   // Multi use is enough to activate streaming mode
-  Multi<String> askAQuestionSteramingMode(String question);
+  Multi<String> askAQuestionStreamingMode(String question);
 
 }
