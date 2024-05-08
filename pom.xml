@@ -37,7 +37,24 @@
         <dependency>
             <groupId>io.quarkiverse.langchain4j</groupId>
             <artifactId>quarkus-langchain4j-ollama</artifactId>
-            <version>0.10.2</version>
+            <version>0.13.1</version>
+        </dependency>
+        <!-- To add RAG capabilities -->
+        <dependency>
+            <groupId>io.quarkiverse.langchain4j</groupId>
+            <artifactId>quarkus-langchain4j-easy-rag</artifactId>
+            <version>0.13.1</version>
+        </dependency>
+        <!-- Web Socket activation -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-websockets-next</artifactId>
+        </dependency>          
+        <!-- Inner process embedding model -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-embeddings-all-minilm-l6-v2-q</artifactId>
+            <version>0.30.0</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
